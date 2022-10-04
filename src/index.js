@@ -31,9 +31,9 @@ root.render(
     <App />
     <audio id="player" src={audio} autoPlay loop></audio>
     <div id="media">
-      <a href='https://discourse.threejs.org' target="_blank"><img src={twitterL} id="twitter" /></a>
-      <a href='https://discourse.threejs.org' target="_blank"><img src={githubL} id="twitter" /></a>
-      <a href='https://discourse.threejs.org' target="_blank"><img src={linkedinL} id="twitter" /></a>
+      <a href='https://twitter.com/RageyUps' target="_blank"><img src={twitterL} id="twitter" /></a>
+      <a href='https://github.com/Asharp19' target="_blank"><img src={githubL} id="twitter" /></a>
+      <a href='https://www.linkedin.com/in/rishabh-upadhyay-06068010a/' target="_blank"><img src={linkedinL} id="twitter" /></a>
     </div>
     <div id='audio-control' onClick={mute}><img src={unmuteL} id="mute" /></div>
     <div id='themeChange'><img src={theme} id="fitcontain" /></div>
